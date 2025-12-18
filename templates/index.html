@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eco Trash Classifier</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌱 Smart Trash Classifier</h1>
+    <p>Upload an image to identify waste type</p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <div class="result">
+            <h2>Prediction:</h2>
+            <span>{{ prediction }}</span>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
