@@ -8,7 +8,7 @@ import io
 app = Flask(__name__)
 
 # Load model
-model = load_model("my_model.h5")
+model = load_model("my_model.keras")
 
 # Class labels (CHANGE if your model uses different order)
 CLASS_NAMES = ["General", "Compostable", "Recyclable"]
