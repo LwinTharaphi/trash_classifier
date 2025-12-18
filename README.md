@@ -1,7 +1,7 @@
 # 🌱 Smart Trash Classifier Web App
 
 An environmental-friendly AI web application that classifies trash images into **General**, **Compostable**, or **Recyclable** categories using a Convolutional Neural Network (CNN).  
-Built with **Flask** and **TensorFlow**, and deployed on **Render**.
+Built with **Flask** and **TensorFlow**.
 
 ---
 
@@ -13,15 +13,13 @@ Built with **Flask** and **TensorFlow**, and deployed on **Render**.
   - Compostable
   - Recyclable
 - 🌍 Clean and eco-friendly UI design
-- ☁️ Cloud deployment using Render (Free Tier)
 
 ---
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS  
 - **Backend:** Flask (Python)  
-- **Machine Learning:** TensorFlow / Keras  
-- **Deployment:** Render  
+- **Machine Learning:** TensorFlow / Keras   
 - **Version Control:** Git & GitHub  
 
 ---
@@ -35,3 +33,9 @@ Built with **Flask** and **TensorFlow**, and deployed on **Render**.
 
 ---
 
+## 📸 Demonstration
+
+Below is a sample demonstration of the Smart Trash Classifier web application.  
+Users can upload an image of trash and receive an instant prediction result.
+
+![App Demonstration](screenshot.png)
