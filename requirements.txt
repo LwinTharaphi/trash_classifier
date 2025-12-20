@@ -1,7 +1,11 @@
+# flask
+# tensorflow==2.15.0
+# # PYTHON_VERSION=3.10.13
+# keras==3.0.5
+# numpy==1.26.4
+# pillow
+# gunicorn
 flask
 tensorflow==2.15.0
-# PYTHON_VERSION=3.10.13
-keras==3.0.5
-numpy==1.26.4
 pillow
-gunicorn
+numpy
